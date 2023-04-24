@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 NLPenv/
 *.pdf
+LateX-report/
 
 # C extensions
 *.so

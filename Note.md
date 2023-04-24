@@ -13,7 +13,7 @@ au tout départ l'idée était d'écrire un tout petit modèle de langages utili
 
 dans un premier temps, nous avons suivi [ce tutoriel](https://towardsdatascience.com/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0)
 
-# les modèles de langages entrainés
+## les modèles de vectorization entrainés
 
 | Nom      | Créateur | Année     |
 | :---        |    :----:   |          ---: |
@@ -21,6 +21,9 @@ dans un premier temps, nous avons suivi [ce tutoriel](https://towardsdatascience
 |[GloVe](https://nlp.stanford.edu/projects/glove/) |Stanford| 2014|
 |[FastText](https://arxiv.org/pdf/1607.04606.pdf)| Facebook| 2015-2018|
 |[ELMo](https://arxiv.org/pdf/1802.05365.pdf)| AllenNLP| 2018|
+
+## modèle de langange
+| Nom      | Créateur | Année     |
 |[BERT](https://arxiv.org/pdf/1810.04805.pdf)| Google| 2019|
 |[GPT](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)| OpenAI| 2018|
 |[XLNet](https://arxiv.org/pdf/1906.08237.pdf)| Google| 2019|
@@ -33,6 +36,9 @@ dans un premier temps, nous avons suivi [ce tutoriel](https://towardsdatascience
 
 GPT : Generative Pre-trained Transformer
 
+papier emblématique : [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+
+mais les Generative Pre-trained model ne sont pas des modèles de word2-vec
 
 
 # 2. Emoji2Vec
@@ -88,4 +94,12 @@ Nous avons donc cherché un dataset de tweets, et nous avons trouvé [celui-ci](
 
 - Ben Eisner, Tim Rocktäschel, Isabelle Augenstein, Matko Bošnjak, Sebastian Riedel [emoji2vec: Learning emoji representations from their description](https://arxiv.org/pdf/1609.08359.pdf) (2016)
 
+
+https://www.mdpi.com/2078-2489/11/1/24
+papier sur la pertincence de la ponctuation dans les modèles de langages:
+intéressant car on peut voir  les émojis comme de la ponctuation
+
+
+Attention Is All You Need 
+papier sur l'arrivée des transformer mais c'est pas vraiment dans le contexte de notre TPE , car cela permet de mettre en contexte dans une phrase
 
