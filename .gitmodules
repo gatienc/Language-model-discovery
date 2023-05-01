@@ -1,0 +1,3 @@
+[submodule "emoji2vec"]
+	path = emoji2vec
+	url = git@github.com:uclnlp/emoji2vec.git
