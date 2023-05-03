@@ -7,4 +7,4 @@ github.com/gatienc/word2vec-pytorch
 
 dû à un mauvais fork , j'ai les modifications et annotation réalisé dans word2vec-pytorch n'ont pas été envoyé
 
-Word2Vec.ipynb follow the tutorial on [this](https://towardsdatascience.com/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0) page. 
+Word2Vec.ipynb suivre le [tuto](https://towardsdatascience.com/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0) page. 
